@@ -7,7 +7,7 @@
 
 ### Links and Resources
 * [Repository](https://github.com/ksmith10309/city-explorer)
-* [Deployed Site]()
+* [Deployed Site](http://city-explorer.s3-website-us-west-2.amazonaws.com)
 * [Create React App](https://github.com/facebook/create-react-app)
 * [Deployed Back End](https://city-explorer-backend.herokuapp.com)
 
