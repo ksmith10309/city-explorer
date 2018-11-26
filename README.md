@@ -1,44 +1,74 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![CF](http://i.imgur.com/7v5ASc8.png) Week 6 Project
+=================================================
 
-## Available Scripts
+## City Explorer
 
-In the project directory, you can run:
+### Author: Katherine Smith
 
-### `npm start`
+### Links and Resources
+* [Repository](https://github.com/ksmith10309/city-explorer)
+* [Deployed Site]()
+* [Create React App](https://github.com/facebook/create-react-app)
+* [Deployed Back End](https://city-explorer-backend.herokuapp.com)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Modules
+#### `app.js`
+* Renders the Header React component from header.js 
+* Renders the Main React component from main.js
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+#### `header.js`
+* Contains and exports the Header React component
+* Renders the header
 
-### `npm test`
+#### `main.js`
+* Contains and exports the Main React component
+* Renders the form for location input
+* Contains the onChange method for the form
+* Contains the onSubmit method for the form
+* Renders the Map React component from map.js
+* Renders the columns for API data
+* Renders the Weather React component from weather.js
+* Renders the Yelp React component from yelp.js
+* Renders the Meetup React component from meetup.js
+* Renders the Movie React component from movie.js
+* Renders the Trail React component from trail.js
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### `map.js`
+* Contains and exports the Map React component
+* Renders the map
 
-### `npm run build`
+#### `weather.js`
+* Contains and exports the Weather React component
+* Renders results from the Dark Sky API
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### `yelp.js`
+* Contains and exports the Yelp React component
+* Renders results from the Yelp API
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+#### `meetup.js`
+* Contains and exports the Meetup React component
+* Renders results from the Meetup API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### `movie.js`
+* Contains and exports the Movie React component
+* Renders results from the Movie DB API
 
-### `npm run eject`
+#### `trail.js`
+* Contains and exports the Trail React component
+* Renders results from the Hiking Project API
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Setup
+#### Dependencies
+* Run the command `npm i` to install dependencies
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Running the app
+* Run the command `npm start` to compile
+* Navigate to `http://localhost:3000/` to view in the browser
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Tests
+* Run the command `npm test` to start tests
+* Test suite in `app.test.js` will run
+* The assertion that it renders without crashing was made
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### UML
+![city-explorer.jpg](./public/city-explorer.jpg)
